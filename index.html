@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"
+        ><img class="img-fluid" src="img/brand-logo.jpg" alt="Aqua Ultimate"
+      /></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#features">Features</a>
+          <a class="nav-link" href="#products">Products</a>
+          <a class="nav-link" href="#">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--Social Sticky icon-->
+    <div class="sicon">
+      <div class="phn">
+        <a href="tel:+919219265755"> <i class="fa-solid fa-phone"></i></a>
+      </div>
+      <div class="wtsp">
+        <a
+          href="https://wa.me/919219265755?text=I'm%20interested%20in%20Aqua%20Ultimate%20products."
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+    </div>
+
+    <!--Hero page carousel-->
+    <div id="heropg" class="fluid-container">
+      <div
+        id="carouselExampleRide"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-bs-theme="dark"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#"
+              ><img class="d-block mx-auto" src="img/banner-bg.jpg" alt=""
+            /></a>
+            <!--<div class="ctxt" id="ctxt1">
+              <p>Wide Range of RO, Water Conditioners and more</p>
+              <button class="shadow p-3 mb-5">Explore</button>
+            </div>-->
+          </div>
+          <div class="carousel-item">
+            <a href="#"
+              ><img class="d-block mx-auto" src="img/banner.jpg" alt=""
+            /></a>
+          </div>
+          <div class="carousel-item">
+            <a href="#"
+              ><img
+                class="d-block mx-auto"
+                src="img/home-amc-desktop.png"
+                alt="" /></a
+            ><!--
+            <div class="ctxt" id="ctxt3">
+              <p>Aqua Ultimate&trade; Water Conditioner</p>
+              <p>Revolution for Indian households</p>
+              <button class="shadow p-3 mb-5">Buy Now</button>
+            </div>-->
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleRide"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Strip-->
+    <div class="strip fluid-container">
+      <h1>Why Aqua Ultimate&trade; is best for you</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa-solid fa-glass-water"></i>
+          <p>Better Water Quality</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-solid fa-user-tie"></i>
+          <p>Professional Assistance</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fa-solid fa-clock"></i>
+          <p>On-time Service</p>
+        </div>
+      </div>
+    </div>
+
+    <!--Features-->
+    <div id="features" class="ftcard fluid-container">
+      <div class="ft ft1">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              style="transform: scaleX(-1);"
+              class="img-fluid"
+              src="img/ft-1.png"
+              alt=""
+            />
+          </div>
+          <div class="ftxt col-md-6">
+            <h2 style="font-weight: bold;">Quality Water</h2>
+            <p>
+              Our products provide effective solutions for improving water
+              quality and ensuring compliance with the standards and
+              guidelines.They are also affordable, durable, and environmentally
+              friendly. By using our products, you can enjoy safe, clean, and
+              healthy water for drinking, cooking, bathing, gardening, and other
+              purposes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="ft ft2">
+        <div class="row">
+          <div class="ftxt col-md-6">
+            <h2 style="font-weight: bold;">Customer Satisfaction</h2>
+            <p>
+              We have been satisfying our customers since 20 years with our
+              high-quality products and services. We value our customers’
+              feedback and strive to meet their needs and expectations. We also
+              provide reliable after-sales support and warranty for our
+              products. We are proud to have loyal and happy customers who trust
+              us with their water quality solutions.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/drinking.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="ft ft3">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/bottle.jpg" alt="" />
+          </div>
+          <div class="ftxt col-md-6">
+            <h2 style="font-weight: bold;">
+              A Better replacement for Bottled Water
+            </h2>
+            <p>
+              Our RO systems are a superior choice for drinking water than
+              bottled water. They offer high-quality water that is healthy,
+              tasty, economical, and environmental.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Products-->
+    <div id="products" class="fluid-container">
+      <h1>
+        Our Products
+      </h1>
+      <div class="productcards row">
+        <div class="pd1 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header">
+              <h5>
+                Crown Plus B <span class="badge text-bg-warning">New</span>
+              </h5>
+            </div>
+            <div class="card-body">
+              <img class="img-fluid" src="img/crown-b.png" alt="" />
+              Product Details:Alkaline Ro system with enhanced features.
+            </div>
+            <div class="card-footer">Rs.15999/- </div>
+          </div>
+        </div>
+        <div class="pd2 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header">
+              <h5>
+                Water Conditioner <span class="badge text-bg-warning">New</span>
+              </h5>
+            </div>
+            <div class="card-body">
+              <img
+                style="width: 100%;"
+                class="img-fluid"
+                src="img/AU-pro-wc.jpg"
+                alt=""
+              />
+              Product Details: Next gen Water Conditioner.
+            </div>
+            <div class="card-footer">Price</div>
+          </div>
+        </div>
+        <div class="pd3 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header"><h5>Prime Star - B</h5></div>
+            <div class="card-body">
+              <img
+                class="img-fluid"
+                src="img/prime-star.png"
+                alt=""
+              />IMAGE+Product Details
+            </div>
+            <div class="card-footer">Price</div>
+          </div>
+        </div>
+        <div class="pd4 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header"><h5>Alkaline</h5></div>
+            <div class="card-body">
+              <img
+                style="width: 100%;"
+                class="img-fluid"
+                src="img/AU-pro-alk.jpg"
+                alt=""
+              />IMAGE+Product Details
+            </div>
+            <div class="card-footer">Price</div>
+          </div>
+        </div>
+        <div class="pd5 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header"><h5>Prime +</h5></div>
+            <div class="card-body">
+              <img
+                style="width: 100%;"
+                class="img-fluid"
+                src="img/prime-plus.jpg"
+                alt=""
+              />IMAGE+Product Details
+            </div>
+            <div class="card-footer">Price</div>
+          </div>
+        </div>
+        <div class="pd6 col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
+            <div class="card-header"><h5>Sterling Star</h5></div>
+            <div class="card-body">
+              <img
+                style="width: 100%;"
+                class="img-fluid"
+                src="img/sterling-star.png"
+                alt=""
+              />IMAGE+Product Details
+            </div>
+            <div class="card-footer">Price</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Testimonial carousel-->
+    <div class="testimonial">
+      <h1>Our Customers say..</h1>
+      <div
+        id="testcarousel"
+        class="carousel slide"
+        data-bs-ride="true"
+        data-bs-theme="dark"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="d-block w-100">
+              "I have been a proud customer of Aqua Ultimate&trade; for almost a
+              decade. Never they disappointed in their work"<br /><sub
+                >-Sanjay Singh</sub
+              >
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p class="d-block w-100">
+              "Aqua Ultimate&trade; is providing world class services at
+              dirt-cheap cost"<br /><sub>-Mayank Sharma</sub>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p class="d-block w-100">
+              "On-time service is a must for me. They always take care of that.
+              I am highly satisfied"<br /><sub>-Anjali Gupta</sub>
+            </p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testcarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testcarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--CTA-->
+    <div class="cta">
+      <div class="cta-txt row">
+        <h2 class="col-md-6">Book a Free Demo Now</h2>
+        <div class="col-md-3">
+          <p><i class="fa-solid fa-phone"></i> 9219265755</p></div>
+          <div class="col-md-3">
+          <p><i class="fa-solid fa-phone"></i> 7217438330</p></div>
+        </div>
+      </div>
+    </div>
+    <footer class="fluid-container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            Information Manufactured and Marketed by:-<br />
+            Care Marketing Private Limited,<br />
+            73 Roshan Bagh Dayal Bagh,<br />
+            Agra - 282005,<br />
+            Uttar Pradesh,<br />
+            India<br />
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p>
+            For consumer complains & supports :<br />
+            Email : info@aquaultimatero.com<br />
+            Customer Care : <br />+91 9219265755 <br />+91 7217438330
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

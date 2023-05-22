@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Quicksand&family=Rajdhani:wght@500&family=Ubuntu&display=swap");
+:root {
+  --hfont: "Rajdhani", sans-serif;
+  --pfont: "Cormorant Garamond", serif;
+}
+* {
+  margin: 0px 0px;
+}
+.navbar {
+  padding-left: 40px;
+  padding-right: 10px;
+  background-color: white;
+  font-family: var(--hfont);
+}
+.navbar-brand {
+  width: 50vw;
+}
+.sicon {
+  z-index: 3;
+  width: 50px;
+  height: 120px;
+  text-align: center;
+  font-size: 1.8rem;
+  position: fixed;
+  bottom: 7vh;
+  right: 5vw;
+}
+.sicon a {
+  color: white;
+}
+.phn {
+  background-color: darkblue;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.wtsp {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+#heropg {
+  text-align: center;
+}
+#heropg .carousel {
+  height: 30vh;
+}
+#heropg img {
+  width: 100vw;
+  height: 30vh;
+}
+#heropg .carousel-item {
+  position: relative;
+}
+.ctxt {
+  position: absolute;
+  font-family: var(--hfont);
+}
+#ctxt1 {
+  font-size: 1rem;
+  width: 40vw;
+  top: 5%;
+  right: 5%;
+}
+#ctxt3 {
+  width: 23vw;
+  bottom: 5%;
+  left: 15%;
+  font-size: 1.1rem;
+}
+.ctxt button {
+  color: black;
+  background-color: #ffe6a7;
+  border: none;
+  font-size: 1rem;
+  padding: 7% 0%;
+  border-radius: 3%;
+  width: 23vw; /*23vw*/
+  height: 4vh;
+}
+
+.strip {
+  background-color: #003049;
+  color: white;
+  font-family: var(--hfont);
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 15%;
+}
+.strip h1 {
+  margin: 10px 0px;
+  font-size: 1.2rem;
+}
+.strip i {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.ft1 {
+  background-color: white;
+}
+.ft1 img {
+  height: 25vh;
+  margin: 40px 0px;
+}
+
+.ft2 {
+  padding-top: 20px;
+  background-color: #ffe6a7;
+}
+.ft2 img {
+  height: 25vh;
+  margin: 30px 0px;
+}
+.ft3 img {
+  height: 25vh;
+  margin: 40px 0px;
+}
+.ftcard {
+  text-align: center;
+  font-family: var(--hfont);
+}
+#products {
+  padding: 3% 10%;
+  text-align: center;
+  font-family: var(--hfont);
+  /*background-color: #003049;*/
+}
+
+.productcards .card {
+  margin: 30px 10px;
+}
+.testimonial {
+  text-align: center;
+  font-family: var(--hfont);
+  background-color: #ffe6a7;
+}
+.testimonial .carousel {
+  height: 30vh;
+}
+.testimonial p {
+  padding: 7% 15%;
+
+  font-size: 1.2rem;
+  width: 60%;
+}
+.testimonial h1 {
+  margin-top: 10px;
+}
+.cta {
+  padding: 0% 15%;
+
+  text-align: center;
+  height: 20vh;
+  font-family: var(--hfont);
+}
+.cta h2 {
+  margin: 4% 0%;
+}
+.cta p {
+  margin: 2vh 0% 0% 0%;
+  font-size: 1.2rem;
+}
+footer {
+  background-color: #003049;
+  color: white;
+  padding: 4% 15%;
+  font-family: var(--hfont);
+  font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    width: 20vw;
+  }
+  .navbar-nav {
+    margin-left: 40%;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+    margin: 0px 20px;
+  }
+  .sicon {
+    display: none;
+  }
+  #heropg .carousel {
+    height: 80vh;
+  }
+  #heropg img {
+    width: 100vw;
+    height: 80vh;
+  }
+  .strip {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 15%;
+  }
+  .strip h1 {
+    margin-bottom: 60px;
+    font-size: 2.9rem;
+  }
+  .strip i {
+    font-size: 2.9rem;
+    margin-bottom: 20px;
+  }
+  .strip p {
+    font-size: 1.5rem;
+  }
+  #ctxt1 {
+    font-size: 1.1rem;
+    width: 40vw;
+    top: 5%;
+    right: 5%;
+  }
+  #ctxt3 {
+    width: 30vw;
+    bottom: 10%;
+    left: 15%;
+    font-size: 1.1rem;
+  }
+  .ctxt button {
+    color: black;
+    background-color: #ffe6a7;
+    border: none;
+    font-size: 1rem;
+
+    border-radius: 3%;
+    width: 23vw;
+    height: 8vh;
+  }
+  .ft1 img {
+    height: 60vh;
+  }
+  .ft2 img {
+    height: 60vh;
+  }
+  .ft3 img {
+    height: 60vh;
+  }
+  .ft {
+    padding: 0% 2%;
+  }
+  .ftxt {
+    margin: 7% 0% 0% 0%;
+    font-size: 1.5rem;
+  }
+  .card {
+    transform: none;
+  }
+  .productcards div[class^="pd"]:hover {
+    transition-duration: 1.2s;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .testimonial .carousel {
+    height: 35vh;
+  }
+  .testimonial p {
+    font-size: 1.5rem;
+  }
+  .cta p {
+    font-size: 1.7rem;
+    margin: 20% 0%;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  \ .testimonial {
+    height: 30vh;
+  }
+  .testimonial .carousel {
+    height: 30vh;
+  }
+  .cta {
+    padding: 0% 7%;
+
+    text-align: center;
+    height: 25vh;
+  }
+  .cta h2 {
+    margin: 4% 0%;
+  }
+  .cta p {
+    margin: 2vh 0% 0% 0%;
+    font-size: 1.5rem;
+  }
+}
